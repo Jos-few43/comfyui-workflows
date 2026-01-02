@@ -1,0 +1,6 @@
+{
+  "enabledMcpjsonServers": [
+    "multi-ai-coordinator"
+  ],
+  "enableAllProjectMcpServers": true
+}

@@ -1,0 +1,15 @@
+# ComfyUI - Ignore large model files and dependencies
+ComfyUI/models/
+ComfyUI/output/
+ComfyUI/input/
+ComfyUI/temp/
+ComfyUI/custom_nodes/
+ComfyUI/venv/
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+*.pth
+__pycache__/
+*.pyc
+.git/
