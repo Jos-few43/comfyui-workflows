@@ -1,4 +1,66 @@
-# ComfyUI Setup - Fixed & Working!
+# ComfyUI Custom Workflows and Setup
+
+A comprehensive collection of ComfyUI workflows, setup scripts, and documentation for Stable Diffusion image generation on RTX 3060.
+
+## 🎨 Available Workflows
+
+This repository includes 4 production-ready workflows:
+
+### 1. **Inpainting Workflow** (`inpainting-workflow.json`)
+```
+┌─────────────────────────────────────────┐
+│  Manual Inpainting Workflow             │
+├─────────────────────────────────────────┤
+│  • Load your image                      │
+│  • Draw mask manually                   │
+│  • Specify prompt for masked area       │
+│  • Generate with Realistic Vision v5.1  │
+│  • Perfect for precise edits            │
+└─────────────────────────────────────────┘
+```
+**Use Case:** Remove objects, change backgrounds, fix details
+**Guide:** See `INPAINTING_GUIDE.md`
+
+### 2. **Auto-Mask Inpainting** (`auto-mask-inpainting-workflow.json`)
+```
+┌─────────────────────────────────────────┐
+│  Automatic Mask Generation              │
+├─────────────────────────────────────────┤
+│  • Load image                           │
+│  • AI detects objects automatically     │
+│  • Select what to inpaint               │
+│  • Generate seamless results            │
+└─────────────────────────────────────────┘
+```
+**Use Case:** Quick object removal, AI-powered masking
+**Guide:** See `AUTO_MASK_WORKFLOW_GUIDE.md`
+
+### 3. **Img2Img Workflow** (`img2img-workflow.json`)
+```
+┌─────────────────────────────────────────┐
+│  Image-to-Image Transformation          │
+├─────────────────────────────────────────┤
+│  • Load source image                    │
+│  • Adjust denoising strength            │
+│  • Transform style/content              │
+│  • Maintain composition                 │
+└─────────────────────────────────────────┘
+```
+**Use Case:** Style transfer, variations, refinements
+
+### 4. **Batch Overnight** (`batch-overnight-workflow.json`)
+```
+┌─────────────────────────────────────────┐
+│  Batch Processing for Mass Generation   │
+├─────────────────────────────────────────┤
+│  • Queue multiple prompts               │
+│  • Automatic batch processing           │
+│  • Run overnight unattended             │
+│  • Generate hundreds of images          │
+└─────────────────────────────────────────┘
+```
+**Use Case:** Dataset generation, exploration, production runs
+**Guide:** See `OVERNIGHT_BATCH_GUIDE.md`
 
 ## 🎯 What Was Wrong
 
